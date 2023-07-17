@@ -11,7 +11,7 @@ app.use("/employees",employeeRoute)
 app.listen(process.env.port,async()=>{
     try {
         await connection
-        console.log(`server run at ${process.env.port} 8000`)
+        console.log(`server run at ${process.env.port}`)
     } catch (error) {
         console.log(error.message)
     }
